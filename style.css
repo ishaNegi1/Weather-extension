@@ -4,16 +4,14 @@
     box-sizing: border-box;
 }
 
-body{
-    background-image: url("https://static.vecteezy.com/system/resources/previews/007/162/562/non_2x/beautiful-pink-mountain-silhouette-landscape-with-fog-and-sunrise-and-sunset-in-mountains-background-outdoor-and-hiking-concept-good-for-wallpaper-site-banner-cover-poster-free-vector.jpg");
+#body{
+    background-image: url("background.jpg");
    background-size: cover;
    background-repeat: no-repeat;
-    height: 300px;
-    width: 400px;
-   
-    border-radius: 10px;
-    max-width: 100%;
-    overflow: hidden;
+   height: 300px;
+   width: 400px;
+   max-width: 100%;
+   overflow: hidden;
 }
 
 label[for="location"]{
@@ -22,7 +20,7 @@ label[for="location"]{
     margin-left: 30px;
     font-weight: 600;
     vertical-align: middle;
-    color: rgb(95, 89, 89);
+    color: white;
     -webkit-text-stroke: 1px #000;
 }
 
@@ -44,7 +42,7 @@ h1{
     margin-left: -10px;
     text-align: center;
     font-size: 40px;
-    color: rgb(95, 89, 89);
+    color: white;
     white-space: nowrap;
     transition: font-size 0.3s;
     -webkit-text-stroke: 1px #000;
@@ -64,7 +62,7 @@ h1{
     margin: 7px;
     text-align: center;
     font-weight: 900; 
-    color: rgb(207, 203, 203);
+    color: white;
     -webkit-text-stroke: 1px #000;
     
 }
@@ -76,13 +74,15 @@ h1{
     font-size: 20px;
     margin-left: 160px;
     margin-top: 14px;
-    border: 2px solid rgb(95, 89, 89);
     cursor: pointer;
-    background-color: white;
+    background-color: rgb(44, 41, 41);
+    color: white;
+    font-family: 'DM Serif Display', serif;
 }
 
 #btn:hover{
-    background-color: rgb(231, 224, 224);
+    background-color: rgb(58, 57, 57);
+    color: white;
 }
 
 
